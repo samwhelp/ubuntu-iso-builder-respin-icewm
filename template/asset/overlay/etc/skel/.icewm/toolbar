@@ -1,0 +1,59 @@
+
+
+################################################################################
+### Head: Manual
+##
+
+
+##
+## ~/.icewm/toolbar
+##
+## $ man icewm-toolbar
+##
+
+
+##
+### Tail: Manual
+################################################################################
+
+
+################################################################################
+### Head: App
+##
+
+
+##
+## ## Format
+##
+## ```
+## prog "title" icon program options
+## ```
+##
+
+prog "RofiDrun" run rofi -show drun -show-icons
+prog "Thunar" folder thunar
+prog "MousePad" file mousepad
+prog "Firefox" firefox firefox --new-tab about:blank
+prog "Sakura" xterm sakura
+
+
+##
+### Tail: App
+################################################################################
+
+
+################################################################################
+### Head: More
+##
+
+
+menu "More" programs {
+	prog "Featherpad" file featherpad
+	prog "Pcmanfm" folder pcmanfm
+	prog "Terminal" xterm xfce4-terminal
+}
+
+
+##
+### Tail: More
+################################################################################
